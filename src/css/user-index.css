@@ -1,0 +1,194 @@
+.user-details {
+  margin-top: 2vh;
+  height: 30vh !important;
+  display: flex;
+}
+
+.title {
+  text-align: center;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 25vh;
+  height: 25vh;
+  border: 1vh solid red;
+}
+
+.username {
+  margin-top: 3vh;
+  font-size: 2vh;
+}
+
+.other-info {
+  margin-left: 3vh;
+}
+
+.user-info {
+  font-size: 2vh;
+}
+
+.field-header-style {
+  justify-content: center;
+  font-size: 2vh;
+}
+
+.username-header {
+  margin-left: 15vh;
+}
+
+.user-fields {
+  font-size: 2vh;
+}
+
+.MuiDataGrid-cell[data-field="id"] {
+  max-width: none !important;
+}
+
+.MuiDataGrid-cell[data-field="username"] {
+  max-width: none !important;
+  margin-left: 2vh;
+  justify-content: center !important;
+}
+
+.MuiDataGrid-cell[data-field="email"] {
+  max-width: none !important;
+  margin-left: 2vh;
+  justify-content: center !important;
+}
+
+.MuiDataGrid-cell[data-field="organisation"] {
+  max-width: none !important;
+  justify-content: center !important;
+}
+
+.css-13qp4b7-MuiButtonBase-root-MuiButton-root {
+  font-size: 1.8vh !important;
+  color: ghostwhite !important;
+}
+
+.css-wxl1jl-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 30vh !important;
+  font-size: 2vh;
+}
+
+.css-1153z2v-MuiTypography-root-MuiDialogTitle-root {
+  font-size: 5vh !important;
+  text-align: center;
+}
+
+.MuiDialogTitle-root + .css-ypiqx9-MuiDialogContent-root {
+  height: max-content !important;
+}
+
+.css-1qxadfk-MuiPaper-root-MuiDialog-paper {
+  min-width: 70vh !important;
+  overflow: hidden !important;
+  background-color: midnightblue !important;
+}
+.css-112ysrj-MuiButtonBase-root-MuiCheckbox-root.Mui-checked {
+  color: #fff;
+}
+.field-group {
+  display: flex !important;
+}
+
+.special-left-input {
+  display: flex;
+  margin-top: 1.6vh;
+}
+
+.left-left-input {
+  width: 16vh !important;
+}
+
+.custom-input-height {
+  height: 4vh !important;
+}
+
+.custom-mobile-input {
+  height: 4vh !important;
+}
+
+.mobile-input-fieldset {
+  width: 15vh !important;
+  margin-top: -2.3vh !important;
+}
+
+.right-input {
+  margin-left: 5vh;
+}
+
+.special-right-input {
+  margin-left: 5vh;
+  display: flex;
+  margin-top: 1.6vh;
+}
+
+.css-v3zyv7-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+  width: 8vh !important;
+}
+
+.css-iiujvs-MuiInputBase-root-MuiOutlinedInput-root {
+  width: 14vh !important;
+}
+
+.css-1wmrndo-MuiFormControl-root {
+  width: 10vh !important;
+  margin-left: 2vh !important;
+}
+
+.css-os7j8m-MuiFormControl-root {
+  width: 14vh !important;
+}
+
+.css-knqc4i-MuiDialogActions-root {
+  margin-top: 1vh !important;
+  margin-bottom: -1vh !important;
+}
+
+.css-9usd9o-MuiTypography-root {
+  font-size: 2vh !important;
+}
+
+.view-health-details {
+  margin-bottom: 2% !important;
+}
+
+.close-details-dialog {
+  margin-bottom: 2% !important;
+}
+
+.submit-btn {
+  margin-top: 2% !important;
+}
+
+.cancel-btn {
+  margin-top: 2% !important;
+}
+
+.selection-inputs {
+  width: 150vh !important;
+}
+
+#avatar-upload-form {
+  margin-top: 3% !important;
+  height: 8.5vh !important;
+  width: 30vh !important;
+  border: 0.02vh solid #adb5bd !important;
+}
+
+#avatar-image-label {
+  margin-top: 1% !important;
+  font-size: 1.5vh !important;
+}
+
+.avatar-input-field {
+  font-size: 2vh !important;
+  margin-left: 2vh;
+  margin-bottom: 1vh;
+}

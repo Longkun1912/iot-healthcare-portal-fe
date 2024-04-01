@@ -1,0 +1,73 @@
+#form-title {
+  margin-top: -1vh;
+  font-size: 5vh;
+  text-align: center;
+}
+
+.input-field {
+  font-size: 3vh;
+}
+
+#avatar-empty-alert {
+  margin-top: -1.5vh !important;
+}
+
+.form-control-lg {
+  margin-top: 1vh;
+  width: -webkit-fill-available;
+  height: 6vh;
+  background-color: cornsilk;
+}
+
+.form-option {
+  display: flex !important;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-bottom: -3vh;
+}
+
+#register-confirmation {
+  width: 25vh;
+  height: 7vh;
+  font-size: 3vh;
+}
+
+#alternative-option {
+  margin-top: 1vh;
+  margin-left: 3vh;
+}
+
+.gender-selection {
+  background-color: cornsilk;
+  margin-top: 1vh;
+  height: 6vh;
+  width: 67vh;
+  border-radius: 1vh;
+  border: 0.01vh solid lightgrey;
+  font-size: 2vh;
+  color: dimgrey;
+  padding-left: 2vh;
+}
+
+.term-check-agreement {
+  margin-top: 2% !important;
+  margin-bottom: 2% !important;
+}
+
+#agreeTerms {
+  font-size: 2.5vh !important;
+  border: 0.1vh solid dimgrey;
+}
+
+#agree-terms-label {
+  font-size: 2.5vh !important;
+}
+
+.error-message {
+  margin-top: -2vh;
+}
+
+.other-error-message {
+  margin-top: 1vh;
+  font-size: 2vh !important;
+}

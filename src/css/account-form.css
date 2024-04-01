@@ -1,0 +1,52 @@
+.input-label {
+  font-size: 2vh !important;
+  color: black !important;
+}
+
+.css-1ksiht6-MuiFormHelperText-root.Mui-error {
+  margin-top: 1vh !important;
+  font-size: 1.8vh;
+}
+
+.validation-error {
+  font-size: 1.8vh;
+}
+
+.selection-field {
+  display: flex !important;
+}
+
+.css-v3zyv7-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-v3zyv7-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-v3zyv7-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  height: 4vh !important;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  color: black;
+}
+
+.avatar-upload-form {
+  background-color: rgba(255, 255, 255, 0.09);
+  width: 79.5vh !important;
+}
+
+.avatar-label {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  font-size: 2vh;
+}
+
+.avatar-input {
+  font-size: 2vh;
+  margin-left: 2vh;
+  margin-bottom: 3vh;
+}
+
+#avatar-empty-error {
+  color: #f44336;
+  margin-left: 2vh;
+}
+
+#create-user-submit-button {
+  height: 7vh;
+  font-size: 3vh;
+}

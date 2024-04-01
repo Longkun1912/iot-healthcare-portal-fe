@@ -1,0 +1,9 @@
+.modal-content {
+  min-width: 50vh !important;
+}
+
+.modal-dialog {
+  display: flex;
+  align-items: baseline !important;
+  max-width: 40%;
+}

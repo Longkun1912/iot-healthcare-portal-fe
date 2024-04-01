@@ -1,0 +1,11 @@
+.owner-container {
+    margin-bottom: 20px; 
+}
+
+.device-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.device-box {
+}

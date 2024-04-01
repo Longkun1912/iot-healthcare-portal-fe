@@ -1,0 +1,468 @@
+.progress-container {
+  margin-left: 2vh;
+}
+
+.current-progress {
+  background-color: aliceblue;
+  border-radius: 1vh;
+  margin-bottom: 4vh;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-time {
+  text-align: right;
+  margin-left: 2vh;
+  margin-right: 4vh;
+  margin-top: 4vh;
+  margin-bottom: -1vh;
+}
+
+.progress-body {
+  display: flex;
+  margin-top: 4vh;
+}
+
+.progress-title {
+  color: darkgreen !important;
+  font-size: 4vh !important;
+  margin-top: 3vh;
+}
+
+.heart-rate-container {
+  margin-left: 2vh;
+  margin-right: 2vh;
+  display: flex !important;
+  border: 0.8vh solid darkgreen;
+  border-radius: 1vh;
+}
+
+.heart-rate {
+  position: relative;
+  overflow: hidden;
+  margin-left: 2vh;
+}
+
+.fade-in {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: aliceblue;
+  top: 0;
+  right: 0;
+  animation: heartRateIn 4.5s linear infinite;
+}
+
+.fade-out {
+  position: absolute;
+  width: 120%;
+  height: 100%;
+  top: 0;
+  left: -120%;
+  animation: heartRateOut 4.5s linear infinite;
+  background: aliceblue;
+}
+
+@keyframes heartRateIn {
+  0% {
+    width: 100%;
+  }
+  50% {
+    width: 0%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes heartRateOut {
+  0% {
+    left: -120%;
+  }
+  30% {
+    left: -120%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.heart-rate-analysis {
+  margin-top: 3vh;
+  margin-left: 6vh;
+}
+
+.time-text {
+  color: dimgray !important;
+  font-size: 2.2vh !important;
+}
+
+.status-text {
+  color: black !important;
+  font-size: 3vh !important;
+  line-height: 5vh;
+}
+
+.health-status-text {
+  color: dimgrey;
+  font-size: 3vh !important;
+  line-height: 5vh;
+}
+
+.health-status-text.high {
+  color: red; /* Color for high/need to decrease */
+  font-size: 3vh !important;
+  line-height: 5vh;
+}
+
+.health-status-text.low {
+  color: red; /* Color for low/need to increase */
+  font-size: 3vh !important;
+  line-height: 5vh;
+}
+
+.health-status-text.normal {
+  color: limegreen; /* Color for normal/status achieved */
+  font-size: 3vh !important;
+  line-height: 5vh;
+}
+
+.temperature-container {
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  display: flex !important;
+  border: 0.8vh solid darkgreen;
+  border-radius: 1vh;
+}
+
+.thermometer-measurement {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 6vh;
+}
+
+.temperature-measurement {
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.temperature-analysis {
+  margin-left: 18vh;
+  margin-top: 9vh;
+}
+
+.blood-pressure-container {
+  margin: 2vh;
+  display: flex !important;
+  border: 0.8vh solid darkgreen;
+  border-radius: 1vh;
+}
+
+#blood-pressure-avatar {
+  width: 35vh !important;
+  height: 25vh !important;
+}
+
+.blood-pressure-analysis {
+  margin-top: 6vh;
+  margin-left: 3vh;
+}
+
+.overall-evaluation {
+  margin-left: 5vh;
+  margin-right: 5vh;
+  margin-top: 2vh;
+  border-radius: 1vh;
+  border: 0.3vh solid darkgreen;
+  background-color: aquamarine;
+}
+
+.overall-text {
+  font-size: 2.5vh;
+  margin-top: 1vh;
+  text-align: left;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  width: fit-content;
+  color: black;
+}
+
+.overall-text.failed {
+  color: red;
+}
+
+.overall-text.success {
+  color: limegreen;
+}
+
+.goal-container {
+  background-color: aliceblue;
+  text-align: center;
+  border-radius: 1vh;
+  width: 65vh;
+  height: max-content;
+}
+
+.goal-progress {
+  margin-left: 5vh;
+}
+
+.health-goal-title {
+  color: darkgreen !important;
+  font-size: 4vh !important;
+}
+
+.goal-intro {
+  position: relative;
+  margin-top: 3vh;
+}
+
+#objective-img {
+  height: 20vh;
+  width: 55vh;
+  border-radius: 1vh;
+  object-fit: cover;
+  border: 0.3vh solid darkgreen;
+}
+
+.objective-title {
+  position: absolute;
+  background-color: darkgreen;
+  bottom: 0;
+  right: 5vh;
+  border-top-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+}
+
+.goal-text {
+  font-size: 3vh;
+  margin-bottom: 0.5vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.objective-options {
+  margin-top: 2vh;
+  padding-bottom: 2vh;
+}
+
+#view-health-details-btn {
+  width: 20vh;
+  height: 6vh;
+  font-size: 2.5vh;
+  margin-right: 4vh;
+}
+
+#select-new-goal-btn {
+  width: 20vh;
+  height: 6vh;
+  font-size: 2.5vh;
+  background-color: darkorange;
+  border: 0.3vh solid coral;
+}
+
+.recommendation-container {
+  margin-top: 2vh;
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 1vh;
+}
+
+.recommendation-brief-title {
+  font-size: 4vh;
+  color: darkgreen !important;
+  padding-top: 2vh;
+  margin-left: 1vh;
+}
+
+.recommendation-list {
+  padding-bottom: 2vh;
+}
+
+.health-recommendation-item {
+  display: flex;
+  margin-top: 2vh;
+  margin-right: 3vh;
+  margin-left: 3vh;
+  border: 0.3vh solid darkgreen;
+  border-radius: 1vh;
+  background-color: lightgreen;
+}
+
+.recommendation-name {
+  flex-basis: 70%;
+}
+
+.recommendation-text {
+  font-size: 2.5vh;
+  color: darkgreen;
+  padding-top: 1.2vh;
+}
+
+.view-recommendation-details {
+  flex-basis: 30%;
+}
+
+#select-recommendation-to-view {
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  width: 12vh;
+  margin-left: 3vh;
+}
+
+.health-goal-progress-title {
+  flex-basis: 100%;
+  margin-left: 0 !important;
+  text-align: center;
+}
+
+.status-progress {
+  display: flex;
+  width: 80vh;
+}
+
+.heart-rate-progress {
+  flex-basis: 33%;
+  background-color: antiquewhite;
+  border-radius: 1vh;
+  border: 0.3vh solid black;
+}
+
+.temperature-progress {
+  flex-basis: 33%;
+  background-color: antiquewhite;
+  border-radius: 1vh;
+  margin-left: 2vh;
+  border: 0.3vh solid black;
+}
+
+.blood-pressure-progress {
+  flex-basis: 34%;
+  background-color: antiquewhite;
+  border-radius: 1vh;
+  margin-left: 2vh;
+  border: 0.3vh solid black;
+}
+
+.title-status {
+  background-color: black;
+  text-align: center;
+}
+
+.status-name-comp {
+  font-size: 3vh !important;
+  color: ghostwhite !important;
+}
+
+.health-status-letter {
+  font-size: 2.5vh;
+  margin-left: 2vh;
+}
+
+.achieved {
+  color: green;
+}
+
+.not-achieved {
+  color: red;
+}
+
+.modal-health-details {
+  width: 85vh;
+  border-radius: 1vh;
+  background-color: var(--bs-modal-bg);
+}
+
+.full-goal-overview {
+  margin-top: 3vh;
+  display: flex;
+}
+
+#full-goal-img {
+  border-radius: 1vh;
+  border: 0.3vh solid;
+  width: 30vh;
+  height: 25vh;
+}
+
+.goal-description-full {
+  margin-left: 2vh;
+  width: 48vh;
+  height: 25vh;
+  background-color: aliceblue;
+  border: 0.3vh solid;
+  border-radius: 1vh;
+}
+
+.goal-description-text {
+  font-size: 2.2vh;
+  margin-top: 1vh;
+  margin-left: 1vh;
+}
+
+.recommendation-status-details {
+  display: flex;
+  border-radius: 1vh;
+  background-color: antiquewhite;
+  border: 0.3vh solid coral;
+}
+
+.rec-symbol {
+  margin: 1vh;
+}
+
+.recommendation-symbol {
+  width: 20vh;
+  height: 20vh;
+}
+
+.recommendation-status {
+  margin: 2vh;
+  padding-top: 2vh;
+}
+
+.rec-status-txt {
+  font-size: 2.5vh;
+  color: darkorange;
+}
+
+.rec-additional-info {
+  margin-top: 2vh;
+  border: 0.3vh solid forestgreen;
+  border-radius: 1vh;
+  background-color: aquamarine;
+}
+
+.rec-info-container {
+  margin: 2vh;
+}
+
+.rec-info-txt {
+  font-size: 2.1vh;
+  color: darkgreen;
+}
+
+.date-time-container {
+  display: flex;
+}
+
+.date-time-title {
+  padding-top: 2vh;
+  font-size: 2.3vh;
+  color: #4cceac;
+}
+
+.date-time-selection {
+  margin-left: 2vh;
+  border-radius: 0.5vh;
+}
+
+#submit-date-time-btn {
+  margin-left: 1vh;
+  border-radius: 0.5vh;
+}

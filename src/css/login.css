@@ -1,0 +1,48 @@
+#login-form {
+  max-width: 70vh !important;
+  min-width: 70vh !important;
+}
+
+.form-label {
+  font-size: 3vh !important;
+}
+
+.form-control {
+  font-size: 2vh !important;
+}
+
+.form-check-label {
+  font-size: 2vh;
+}
+
+.text-primary {
+  font-size: 2vh;
+  font-weight: bold;
+}
+
+#login-option {
+  display: flex;
+  justify-content: center;
+}
+
+#login-btn {
+  font-size: 3vh;
+  width: 40vh;
+  height: 7vh;
+}
+
+.register-btn {
+  font-size: 2vh;
+  margin-left: 1vh;
+}
+
+.alert-danger {
+  margin-top: 1vh;
+  font-size: 2vh;
+}
+
+.login-way {
+  font-size: 2vh;
+  margin-left: 2vh;
+  margin-top: 1.5vh;
+}

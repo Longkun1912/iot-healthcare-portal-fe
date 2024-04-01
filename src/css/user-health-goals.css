@@ -1,0 +1,61 @@
+.goals-container {
+  background-color: bisque;
+  border-radius: 2vh;
+  overflow: auto;
+  min-height: 65vh;
+  max-height: 65vh;
+  width: fit-content;
+}
+
+.title-alert {
+  display: flex;
+}
+
+.set-goal-success-toast {
+  position: relative;
+  z-index: 1000;
+  padding-right: 0;
+  padding-left: 0;
+  height: fit-content;
+}
+
+.toast-header {
+  width: initial !important;
+}
+
+#notification-header {
+  flex-basis: 90%;
+}
+
+.notification-content {
+  background-color: forestgreen;
+  font-size: 2vh !important;
+}
+
+.goal-preview {
+  display: flex;
+}
+
+.goal-title {
+  width: 36vh !important;
+}
+
+#choose-goal {
+  height: 5vh !important;
+  margin-top: 2.5%;
+  margin-right: 1vh;
+}
+
+#view-title {
+  margin-left: auto;
+}
+
+#health-objective-detail-modal {
+  height: 65vh !important;
+}
+
+.recommended-goals {
+  justify-content: right;
+  display: flex;
+  margin-top: 2vh;
+}

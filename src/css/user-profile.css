@@ -1,0 +1,86 @@
+#profile-overview {
+  background-color: antiquewhite !important;
+  height: 56vh !important;
+}
+
+#profile-details {
+  background-color: antiquewhite !important;
+  max-height: 56vh !important;
+}
+
+.profile-management {
+  display: flex !important;
+  margin-left: -4vh !important;
+  width: 50vh !important;
+  height: 9vh !important;
+}
+
+.edit-profile-btn {
+  background-color: royalblue !important;
+  color: ghostwhite !important;
+  margin-top: 3% !important;
+  width: 30vh !important;
+  font-size: 1.9vh !important;
+}
+
+.profile-management-icon {
+  font-size: 3.3vh;
+  margin-right: 5%;
+}
+
+.edit-password-btn {
+  background-color: red !important;
+  margin-left: 3% !important;
+  color: ghostwhite !important;
+  margin-top: 3% !important;
+  width: 30vh !important;
+  font-size: 1.9vh !important;
+  margin-right: 2vh !important;
+}
+
+.user-info {
+  font-size: 2vh;
+}
+
+#role-list {
+  margin-left: -4%;
+}
+
+#role-item {
+  margin-right: 1%;
+  margin-bottom: -3%;
+  color: var(--bs-secondary-color) !important;
+}
+
+.modal-title {
+  color: black !important;
+  margin-left: 33%;
+}
+
+.modal-body {
+  color: black !important;
+}
+
+.edit-row {
+  display: flex;
+}
+
+.left-edit {
+  margin-left: 2%;
+}
+
+.right-edit {
+  margin-left: 5%;
+}
+
+.password-input-label {
+  font-size: 2.8vh !important;
+}
+
+.error-validation-message {
+  font-size: 1.9vh !important;
+}
+
+.header-notify {
+  height: 8vh !important;
+}
